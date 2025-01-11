@@ -22,7 +22,7 @@ resultPlat_outer = zeros(2001,4001);%外平面分辨率为1个pixel 20
 resultPlat_inner = zeros(1001,2001);%内平面分辨率为1个pixel 20
 numQuan = [1,12,17,26,32,32,37];%每圈的个数
 alphaInterval = 360./numQuan;
-for i = 1:60%遍历所有光纤
+for i = 1:601%遍历所有光纤
     %每根光纤发射的光线数量
     numRays = round(counts(i)*maxNumRays);
     %每根光纤的光谱
